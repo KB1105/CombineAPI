@@ -1,23 +1,62 @@
 {
-  "무기": [
-    { "녹슨단검": 1, "철괴": 3 ,"철단검": 1},
-    { "금괴": 3, "은괴": 4 ,"다이아몬드": 1 },
-    { "id": 3, "title": "Post 3" }
+  "weapon": [
+    { "materials": { "녹슨단검": 1, "철괴": 3 }, "result": "철단검", "quantity": 1 },
+    { "materials": { "금괴": 3, "은괴": 4 }, "result": "다이아단검", "quantity": 1 },
+    { "materials": { "강철조각": 2, "화염석": 1 }, "result": "화염단검", "quantity": 1 },
+    { "materials": { "은괴": 2, "에메랄드": 1 }, "result": "에메랄드칼", "quantity": 1 },
+    { "materials": { "철괴": 5, "가죽조각": 2 }, "result": "강철검", "quantity": 1 },
+    { "materials": { "금괴": 1, "보석": 3 }, "result": "보석검", "quantity": 1 },
+    { "materials": { "루비": 2, "흑요석": 1 }, "result": "루비검", "quantity": 1 },
+    { "materials": { "다이아몬드": 1, "금괴": 2 }, "result": "다이아몬드칼", "quantity": 1 },
+    { "materials": { "은괴": 1, "철괴": 1 }, "result": "강화단검", "quantity": 1 },
+    { "materials": { "가죽": 2, "나무조각": 1 }, "result": "나무검", "quantity": 1 }
   ],
-  "갑옷": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "armor": [
+    { "materials": { "철괴": 5, "가죽": 3 }, "result": "강철갑옷", "quantity": 1 },
+    { "materials": { "은괴": 4, "천조각": 2 }, "result": "은제갑옷", "quantity": 1 },
+    { "materials": { "금괴": 3, "보석": 2 }, "result": "황금갑옷", "quantity": 1 },
+    { "materials": { "흑요석": 2, "강철조각": 3 }, "result": "흑요석갑옷", "quantity": 1 },
+    { "materials": { "가죽": 5, "철괴": 2 }, "result": "가죽갑옷", "quantity": 1 },
+    { "materials": { "루비": 1, "은괴": 2 }, "result": "루비갑옷", "quantity": 1 },
+    { "materials": { "사파이어": 2, "철괴": 3 }, "result": "사파이어갑옷", "quantity": 1 },
+    { "materials": { "금괴": 2, "에메랄드": 1 }, "result": "에메랄드갑옷", "quantity": 1 },
+    { "materials": { "흑요석": 1, "화염석": 2 }, "result": "화염갑옷", "quantity": 1 },
+    { "materials": { "철괴": 6, "루비": 1 }, "result": "강화갑옷", "quantity": 1 }
   ],
-  "갑옷": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "helmet": [
+    { "materials": { "가죽": 2, "철괴": 1 }, "result": "가죽헬멧", "quantity": 1 },
+    { "materials": { "은괴": 2, "철괴": 1 }, "result": "은제헬멧", "quantity": 1 },
+    { "materials": { "금괴": 1, "루비": 1 }, "result": "루비헬멧", "quantity": 1 },
+    { "materials": { "사파이어": 1, "강철조각": 1 }, "result": "사파이어헬멧", "quantity": 1 },
+    { "materials": { "철괴": 3, "에메랄드": 1 }, "result": "에메랄드헬멧", "quantity": 1 },
+    { "materials": { "가죽": 3, "은괴": 1 }, "result": "강화가죽헬멧", "quantity": 1 },
+    { "materials": { "화염석": 1, "강철조각": 1 }, "result": "화염헬멧", "quantity": 1 },
+    { "materials": { "루비": 1, "흑요석": 1 }, "result": "흑요석헬멧", "quantity": 1 },
+    { "materials": { "철괴": 2, "보석": 1 }, "result": "보석헬멧", "quantity": 1 },
+    { "materials": { "은괴": 1, "강철조각": 1 }, "result": "강철헬멧", "quantity": 1 }
   ],
-    "악세서리": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "acc": [
+    { "materials": { "금괴": 1, "보석": 2 }, "result": "황금반지", "quantity": 1 },
+    { "materials": { "루비": 1, "은괴": 1 }, "result": "루비반지", "quantity": 1 },
+    { "materials": { "에메랄드": 1, "가죽조각": 1 }, "result": "에메랄드팔찌", "quantity": 1 },
+    { "materials": { "사파이어": 2, "은괴": 1 }, "result": "사파이어귀걸이", "quantity": 1 },
+    { "materials": { "철괴": 1, "흑요석": 1 }, "result": "흑요석반지", "quantity": 1 },
+    { "materials": { "화염석": 1, "강철조각": 1 }, "result": "화염반지", "quantity": 1 },
+    { "materials": { "보석": 3, "가죽": 1 }, "result": "보석팔찌", "quantity": 1 },
+    { "materials": { "은괴": 2, "사파이어": 1 }, "result": "사파이어목걸이", "quantity": 1 },
+    { "materials": { "루비": 2, "에메랄드": 1 }, "result": "루비목걸이", "quantity": 1 },
+    { "materials": { "금괴": 1, "철괴": 1 }, "result": "철반지", "quantity": 1 }
   ],
-    "보조무기": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "subWeapon": [
+    { "materials": { "녹슨단검": 1, "가죽": 1 }, "result": "녹슨방패", "quantity": 1 },
+    { "materials": { "철괴": 2, "가죽": 1 }, "result": "강철방패", "quantity": 1 },
+    { "materials": { "은괴": 1, "사파이어": 1 }, "result": "사파이어방패", "quantity": 1 },
+    { "materials": { "화염석": 2, "강철조각": 1 }, "result": "화염방패", "quantity": 1 },
+    { "materials": { "금괴": 1, "루비": 1 }, "result": "루비방패", "quantity": 1 },
+    { "materials": { "보석": 2, "철괴": 1 }, "result": "보석방패", "quantity": 1 },
+    { "materials": { "에메랄드": 1, "흑요석": 1 }, "result": "에메랄드방패", "quantity": 1 },
+    { "materials": { "가죽": 2, "철괴": 1 }, "result": "가죽방패", "quantity": 1 },
+    { "materials": { "흑요석": 1, "금괴": 1 }, "result": "흑요석방패", "quantity": 1 },
+    { "materials": { "루비": 1, "보석": 1 }, "result": "보석방패", "quantity": 1 }
   ]
 }
